@@ -1,0 +1,192 @@
+html {
+	font-family: 'Raleway', sans-serif;
+	height: 200vh;
+}
+
+/*********************************
+	FONTS
+**********************************/
+.ucase {
+	text-transform: uppercase;
+}
+
+.center_text {
+	text-align: center;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+.title h3,
+.install_link a {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.title p {
+	font-size: 10px;
+}
+
+.header_name {
+	font-size: 18px;
+	line-height: 31px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.btn {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0.5px;
+	
+}
+
+.app_name,
+.store_title {
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.store_title {
+	font-weight: 200;
+}
+
+.advert {
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.feature_title {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.feature .description {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+
+/********************************
+	COLORS
+********************************/
+.green {
+	color: #4F9951;
+}
+
+.gray {
+	color: #717171;
+}
+
+.off_white {
+	background-color: rgb(248, 248, 249);
+}
+.cta {
+	background-color: #4f9951;
+	color: #fff;
+}
+
+.top_section {
+	height: 120px;
+	background: white;
+}
+
+.top_branding,
+.app_branding,
+.main_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top_branding {
+	padding: 10px 20px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+.logo {
+	height: 30px;
+	width: 30px;
+}
+
+.install_link a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #7FC07F;
+}
+
+.main_header {
+	padding: 20px 10px;
+}
+
+.user_auth {
+	display: flex;
+}
+
+.user_auth .btn {
+	padding: 7px 14px;
+}
+
+.carousel {
+	height: 213px;
+	background-image: url("./img/a18b0436cbe3135135b807e6fc47a6c5-w2880-49.jpg");
+	background-size: 150% 150%;
+	background-position: center center;
+	margin-bottom: ;
+}
+
+.content {
+	width: 84%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+
+.app_desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	min-height: 108px;
+}
+
+.advert {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.intro .btn {
+	padding: 11px 20px;
+}
+
+.wrapper {
+	width: 63%;
+	margin: 0 auto;
+}
+
+.feature_title {
+	margin-bottom: 24px;
+}
+
+.feature_title span {
+	display: block;
+}
+
+.feature_title::before {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 3px;
+	background: #C6C6C6;
+	margin: 20px 0;
+}
+
+.feature {
+	margin-bottom: 40px;
+}
